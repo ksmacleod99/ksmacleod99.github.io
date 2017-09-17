@@ -1,0 +1,179 @@
+/* Color Pallet --
+#46732e - foliage green
+#00395b - muted navy blue
+#b7a694 - taupe
+#fdecf4 - light pink
+*/
+
+body {
+	background-color: #ffffff;
+	font-family: "Poppins", arial, sans-serif;
+}
+
+h1 {
+	font-family: "Homemade Apple", times, serif;
+	font-size: 60px;
+	color: #00395b;
+}
+
+h2 {
+	font-family: "Poppins", times, serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+p, h5,li {
+ font-family: "Poppins", arial, sans-serif;
+ font-size: 14px;
+}
+
+h3 {font-family: "Homemade Apple", times, serif;
+ font-size: 20px;
+ font-weight: bold;
+ color: #00395b;
+ }
+
+ h4 {
+	 font-weight: bold;
+ }
+
+
+.bigbox {
+ background-color: #ffffff;
+ color: #000000;
+ border: 2px solid #00395b;
+ padding-top: 10px;
+ padding-right: 20px;
+ padding-bottom:10px;
+ padding-left:20px;
+ margin: auto;
+ }
+
+ .littlebox {
+ background-color: #ffffff;
+ color: #000000;
+ border: 2px solid #00395b;
+ padding: 5px;
+ margin: 10px;
+ }
+
+.social {
+	margin-bottom:10px;
+  }
+
+.headimg {
+	background-image: url("images/IMG_0609.png");
+	height: 60%;
+	background-position: 30% 60%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.thumbnail {
+  display: block;
+  max-width:80%;
+  max-height: auto;
+	margin:auto;
+}
+
+.resize {
+  display: block;
+  max-width:80%;
+  max-height: auto;
+}
+
+/*links */
+ a {
+	 color: #46732e;
+  }
+ a:hover {
+	 color: #00395b;
+ 	 text-decoration:none;
+ }
+a:active {
+	color: #fdecf4;
+  text-decoration: none;
+}
+
+@media (min-width: 600px){
+	.bigbox {background-color: #ffffff;
+ 	color: #000000;
+ 	border: 2px solid #00395b;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom:10px;
+	padding-left:30px;
+	margin: 20px;
+ 	}
+ }
+
+ /* Bootstrap styling */
+ .navbar {
+ 	margin-bottom: 0;
+ 	border-radius: 0;
+ 	background-color: #ffffff;
+}
+
+ .navbar-brand {
+ 	font-family: "Homemade Apple", times, serif;
+ 	font-color: #00395b;
+ 	font-size: 20px;
+ 	width: 50px;
+ 	text-align: left;
+ 	text-decoration: none;
+}
+
+.nav {font-family: "Poppins", arial, sans-serif;
+	font-color: #00395b;
+	border: 1px, solid, #00395b;
+}
+
+.navbar-toggle  {
+	border-color: #00395b !important;
+	color: #00359b;
+	padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: left;
+  text-decoration: none;
+}
+
+ul.nav a:hover { color: #b7a694 !important;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.fa {
+ padding: 5px;
+ font-size: 20px;
+ width: 50px;
+ text-align: center;
+ text-decoration: none;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #46732e;
+}
+
+.right {
+    float: right;
+   /* width: 300px;
+    border: 3px solid #73AD21;
+    padding: 5px; */
+}
+
+
+
+/*Modal -- Accessability items from github.com/gdkraus/accessable-modal-dialog -- */
+.screen-reader-offscreen {
+	position:absolute;
+	left:-999px;
+	width:1px;
+	height:1px;
+	top:auto;
+}
+.modal-content {
+	padding:10px
+}
