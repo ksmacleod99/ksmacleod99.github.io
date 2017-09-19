@@ -107,6 +107,10 @@ a:active {
  	}
  }
 
+ .rounded{
+	 border-radius: 50%;
+	 }
+
  /* Bootstrap styling */
  .navbar {
  	margin-bottom: 0;
@@ -163,7 +167,6 @@ a.thumbnail.active {
     border: 3px solid #73AD21;
     padding: 5px; */
 }
-
 
 
 /*Modal -- Accessability items from github.com/gdkraus/accessable-modal-dialog -- */
