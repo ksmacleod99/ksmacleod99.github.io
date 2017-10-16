@@ -4,10 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- Google fonts and icons -->
   <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Poppins" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,20 +18,21 @@
 <body>
 
   <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">Kelly MacLeod</a>
 
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="nav navbar-nav ml-auto">
-        <li><a href="#projects"><i class="fa fa-folder-o" aria-hidden="true"></i>Projects</a></li>
-        <li><a href="#about"><i class="fa fa-user-o" aria-hidden="true"></i>About Me</a></li>
-        <li><a href="#contact"><i class="fa fa-comment-o" aria-hidden="true"></i>Contact</a></li>
-      </ul>
-    </div>
-</nav>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Kelly MacLeod</a>
+
+      <div class="collapse navbar-collapse right" id="menu">
+        <ul class="nav navbar-nav mr-auto">
+          <li><a href="#projects"><i class="fa fa-folder-o" aria-hidden="true"></i>Projects</a></li>
+          <li><a href="#about"><i class="fa fa-user-o" aria-hidden="true"></i>About Me</a></li>
+          <li><a href="#contact"><i class="fa fa-comment-o" aria-hidden="true"></i>Contact</a></li>
+        </ul>
+      </div>
+
+  </nav>
 
 <div class="headimg"></div>
 <div class="container">
@@ -40,14 +40,14 @@
         <h2>Freelance Web Developer</h2> </center>
     </div>
 
-<div style="margin-top: 30px;">
+<div>
   <h3 id="projects">Projects</h3>
     <div class="row bigbox">
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom:5px;">
         <a href='#' data-toggle="modal" data-target="#vetResort"><img src="vetsresorttmb.png" class="thumbnail littlebox"></a>
      </div>
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom:5px;">
-      <img src="comingsoon.gif" class="thumbnail littlebox">
+      <a href='#' data-toggle="modal" data-target="#opCodeBenefit"><img src="opcodebenefit.png" class="thumbnail littlebox"></a>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="margin-bottom:5px;">
       <img src="comingsoon.gif" class="thumbnail littlebox">
@@ -55,27 +55,20 @@
   </div>
 </div>
 
-  <div style="margin: 50px;"> <h3 id="about"> A bit about myself...</h3>
+  <div> <h3 id="about"> A bit about myself...</h3>
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><h4>Front End Languages</h4>
         <p>HTML</p>
         <p>CSS</p>
-        <p><s>JavaScript</s></p>
-        <p><s>JQuery</s></a>
       </div>
-      <!-- <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3"><h4>Back End Languages</h4>
-        <p><s>PHP</s></p>
-        <p><s>Ruby/on Rails</s></p>
-        <p><s>Python/Django</s></p>
-      </div> -->
+
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><h4>Et Cetera</h4>
         <p>WordPress CMS</p>
-        <p><s>Ghost Templating</s></p>
+        <p>Ghost</p>
     </div>
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 50px;"><h4>About Me</h4>
-        <img src="IMG_0363.jpg" class="rounded" align="right" alt="Small image of Kelly">
-        <p>I am self-taught front-end web developer. I am currently teaching myself Javascript and JQuery to create interactive websites, and seeking a collaborative environment to continue learning front-end languages.
-          Remote work is preferred due to an inability to relocate. Long-term, I would like to learn back-end languages as well. Proud veteran.</p>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><h4>About Me</h4>
+        <p>I am a self-taught front-end web developer. I am currently teaching myself Javascript and JQuery to create interactive websites, and seeking a collaborative environment to continue learning front-end languages.
+          Remove work is preferred due to an inability to relocate. Long-term, I would like to learn back-end languages as well. Proud veteran.</p>
       </div>
     </div>
   <!-- <div> <h3>Relevent resume entries</h3>
@@ -95,7 +88,7 @@
   </div> -->
 
 
-  <div style="margin-top: 30px;"> <h3 id="contact">Lets keep in touch!</h3>
+  <div> <h3 id="contact">Lets keep in touch!</h3>
     <div class="row">
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <p> Email me at ksmacleod99 [at] gmail.com</p>
@@ -122,7 +115,7 @@
 <div class="modal fade" id="vetResort" aria-hidden="true" aria-labelledby="modalTitle" aria-describedby="modalDescription" role="dialog">
     <div class="modal-lg modal-dialog" role="document">
       <div class="modal-content">
-        <div id="modalDescription" class="screen-reader-offscreen">Beginning of dialog window. Escape will cancel and close the window. </div>
+        <div id="modal1Description" class="screen-reader-offscreen">Beginning of dialog window. Escape will cancel and close the window. </div>
         <h3 id="modal1">Case Study:</h3>
         <h4 id="subtitle1">Operation Homefront Heroes at Veterans Resort</h4>
           <div class="modal-body">
@@ -131,7 +124,7 @@
             <p><a href="http://veteransresortusa.com/" rel="external" target="_blank">Operation Homefront Heroes at Veterans Resort</a>,
               located in Bozeman, MT underwent a shift in their organization's mission, and needed to update their site content to match. I had the privilage of assiting another developer update content,
               create content reflecting the new mission, and organize existing pages. I became very familiar with the nuances of the WordPress.org CMS over the course of this project.
-              The theme is not my work, however, the logo is.</p>
+              The theme is not my work; however, the logo is.</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button>
@@ -140,6 +133,25 @@
     </div>
   </div>
 
+  <div class="modal fade" id="opCodeBenefit" aria-hidden="true" aria-labelledby="modalTitle" aria-describedby="modalDescription" role="dialog">
+      <div class="modal-lg modal-dialog" role="document">
+        <div class="modal-content">
+          <div id="modal2Description" class="screen-reader-offscreen">Beginning of dialog window. Escape will cancel and close the window. </div>
+          <h3 id="modal2">Case Study:</h3>
+          <h4 id="subtitle2">Operation Code Benefit Page</h4>
+            <div class="modal-body">
+              <img src="opcodebenefit.png" class="resize center-block">
+              <p><span></span></p>
+              <p><a href="http://www.operationcode.com/benefit" rel="external" target="_blank">Operation Code</a> is a great community built to assist veterans who are trying to enter the tech field. I am proudly part of this community,
+              and had to oppertunity to help develop a page for a benefit dinner and auction. I learned how to be flexable with changing needs for the page (I wish I had a screenshot of the MVP!), and became more proficient with Git(hub).
+              This was not my first project using React, however after working on this page I am motivated to learn more.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close">Close</button>
+            </div>
+        </div>
+      </div>
+    </div>
 
 </body>
 </html>
