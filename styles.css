@@ -82,6 +82,14 @@ h3 {font-family: "Homemade Apple", times, serif;
   max-height: auto;
 }
 
+.circle {
+    border-radius: 100%;
+		max-height: 100px;
+		width: auto;
+		float:right;
+		margin: 10px;
+}
+
 /*links */
  a {
 	 color: #46732e;
@@ -106,14 +114,6 @@ a:active {
 	margin: 20px;
  	}
  }
-
- .rounded{
-	 border-radius: 50%;
-	 -webkit-border-radius: 50%;
-	 -moz-border-radius: 50%;
-	 -ms-border-radius: 50%;
-	 -o-border-radius: 50%;
-	 }
 
  /* Bootstrap styling */
  .navbar {
@@ -171,6 +171,7 @@ a.thumbnail.active {
     border: 3px solid #73AD21;
     padding: 5px; */
 }
+
 
 
 /*Modal -- Accessability items from github.com/gdkraus/accessable-modal-dialog -- */
