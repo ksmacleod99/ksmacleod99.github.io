@@ -127,29 +127,45 @@ li {
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: center;
-	align-items: stretch;
-	box-sizing: border-box;
+	align-items: center;
 }
-.imgBox{
+.edu{
 	width:20%;
+	align-self: flex-start;
+}
+
+.resume{
+	width:70%;
 	margin: auto;
 	padding-bottom: 10px;
 }
 
-.desc{
-	width:70%;
-	max-width:500px;
-	margin: auto;
-	padding-bottom: 10px;
-	padding-left: 15px;
-}
-.box{
-	width:50%;
+.card{
+	width:25%;
+	min-height:350px;
+	padding:5px;
+	margin: 2vw;
+	text-align: center;
+	border: 1px solid #f69b58;
+	background-color:#7672a2;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
 }
 .noPadding {
 	padding:0;
 	list-style: none;
 }
+
+.box{
+	width:50%;
+	align-self: flex-start;
+}
+.date{
+	font-style: italic;
+	display:block;
+}
+
 /*links */
  a {
 	 color: #f69b58;
@@ -234,7 +250,7 @@ form {
   margin: 0;
 	padding:20px 10px 10px 20px;
 	font-family: 'La Belle Aurore', Helvetica, Arial, sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
   display: block;
   font-weight: 400;
   line-height: 17px;
@@ -517,13 +533,13 @@ a.thumbnail.active {
 	.wrapper {
 		margin-top:15px;
 	}
-	.imgBox {
+	.edu {
 		width:100%;
 		margin: auto;
 		padding-bottom: 10px;
 		text-align: center;
 	}
-	.desc{
+	.resume{
 		width:100%;
 		margin: auto;
 		padding-bottom: 10px;
@@ -531,6 +547,10 @@ a.thumbnail.active {
 	}
 	.box{
 		width:100%;
+	}
+	.card {
+		width:100%;
+		height: auto;
 	}
 	form {
 	  margin:0 auto;
@@ -552,19 +572,18 @@ a.thumbnail.active {
 	    clear: right;
 	    padding: 3px;
 		}
-		.imgBox{
-			width:40%;
-			margin: auto;
-			padding-bottom: 10px;
+		.edu{
+			width:20%;
 		}
-		.desc{
-			width:50%;
-			margin: auto;
-			padding-bottom: 10px;
-			padding-left: 15px;
+		.resume{
+			width:70%;
 		}
 		.box{
 			width:50%;
+		}
+		.card {
+			width:40%;
+			height: auto;
 		}
 }
 @media (min-width : 1400px){
