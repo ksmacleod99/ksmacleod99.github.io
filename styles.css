@@ -144,12 +144,22 @@ li {
 	padding-left: 15px;
 }
 .box{
+	width:33%;
+}
+
+.footerBox{
 	width:50%;
 }
 .noPadding {
-	padding:0;
+	padding:5px;
+	margin: 0;
 	list-style: none;
 }
+
+.smolText{
+	font-size: 14px;
+}
+
 /*links */
  a {
 	 color: #f69b58;
